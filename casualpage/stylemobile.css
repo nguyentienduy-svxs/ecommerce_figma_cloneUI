@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.maincontent{
+    height: 3000px;
+    background-color: #bebebe;
+    margin-top: 24px;
+}
+.filterbar{
+    height: 1230px;
+    background-color: white;
+    width: 23.79%;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    padding: 20px 24px;
+}
+.head{
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    
+    
+}
+.nothings{
+    height: 1px;
+    background: #d3d3d3;
+    margin-top: 24px;
+    width: 100%;
+
+}
+.list{
+    height: 160px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+.items span{
+font-size: 16px;
+font-weight: 400;
+color: #808080;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nothingss{
+    height: 1px;
+    background: #d3d3d3;
+    margin-top: 24px;
+    width: 100%;
+    margin-bottom: 24px;
+
+}
+.range{
+    width: 100%;
+}
+.applyfilters{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.colors{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    }
+    .containColors{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+.containColors__up{
+    display: flex;
+    gap: 15.5px;
+}
+.containColors__down{
+    display: flex;
+    gap: 15.5px;
+}
+.color{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 2px solid #d3d3d3;
+}
+.color1{
+    background-color: #00c12b;
+    
+}
+.color2{
+    background-color: #F50606;
+}
+.color3{
+    background-color:#F5DD06 ;
+}
+.color4{
+    background-color: #F57906;
+}
+.color5{
+    background-color: #06CAF5;
+}
+.color6{
+    background-color: #063AF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color7{
+    background-color: #7D06F5;
+}
+.color8{
+    background-color: #F506A4;
+}
+.color9{
+    background-color: #FFFFFF;
+}
+.color10{
+    background-color: #000000;
+}
+.sizes{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    height: 274px;
+    }
+.size-btn{
+    border: none;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 62px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #808080;
+    transition: background-color 0.3s ease;
+}
+.size-btn:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.containSizes{
+display: flex;
+flex-wrap: wrap;
+gap: 8px;  
+width: 100%;
+height: 227px;
+}
+.liststyle{
+    height: 124px;;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 24px;
+}
+.apply{
+    width: 100%;
+    height: 48px;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 62px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.close{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.close:hover{
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width:767px) {
+    .filterbar {
+    height: auto;
+    background-color: white;
+    width: 100%;
+    border-radius: 0px ;
+    }
+    .maincontent {
+    height: auto;
+    margin: 0;
+    border-radius: 20px;
+    }
+  .size-btn {
+    border: none;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    height: 48px;
+    width: 31%;
+  }
+  .range{
+    height: 41.5px;
+    width: 100%;
+    
+}
+.range__bar{
+    height: 6px;
+    width: 100%;
+    background-color: #f0f0f0;
+    position: relative;
+    margin-top: 14px;
+}
+.range__bar--black{
+    height: 6px;
+    width: 60.85%;
+    background: #000000;
+    position: absolute;
+right: 53px;
+left: 53px;
+}
+.circle1, .circle2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.circle1s{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    cursor: pointer;
+
+}
+.circle2s{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: absolute;
+    top: -7px;
+    right: -21px;
+    cursor: pointer;
+}
+}
