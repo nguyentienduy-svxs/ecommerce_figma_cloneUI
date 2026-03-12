@@ -1279,8 +1279,15 @@ main {
     .price>span {
         font-size: 18px;
     }
-
-
+    
+    .contains h2 {
+        color: #FFFFFF;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 45px;
+        width: 84.54%;
+    }
+ 
 }
 
 
